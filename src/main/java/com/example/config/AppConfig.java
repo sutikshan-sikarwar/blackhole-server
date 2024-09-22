@@ -43,7 +43,7 @@ public class AppConfig {
 	            CorsConfiguration cfg = new CorsConfiguration();
 	            cfg.setAllowedOrigins(Arrays.asList(
 	                    "http://localhost:3000",
-	                    "https://blackhole-eight.vercel.app")); 
+	                    "https://blackhole-client.vercel.app")); 
 	            cfg.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS")); 
 	            cfg.setAllowCredentials(true);
 	            cfg.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "Accept")); // List expected headers
